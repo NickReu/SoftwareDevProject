@@ -1,0 +1,102 @@
+body {
+    background-image: url("alien.jpg");
+    background-attachment: fixed;
+    background-color: #2225c2;
+    padding: 0px;
+    margin: 0px;
+}
+.page_content {
+    position: relative;
+    background-color: #f2f2f2;
+    width: 60%;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    z-index: 0;
+}
+.top_bar {
+    position: relative;
+    background-color: #316b75;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 2px black;
+    z-index: 1;
+}
+.top_menu {
+    position: relative;
+    padding-left: 15px;
+}
+.top_menu table tr td {
+    padding-right: 30px;
+    font-size: 150%;
+    color: white;
+    font-family: sans-serif;
+}
+.top_menu table tr td p {
+    padding: 2px;
+}
+.top_menu table tr td p a {
+    text-decoration: none;
+    color: white;
+}
+.top_menu table tr td p a:hover {
+    text-shadow: 0px 0px 2px white;
+    text-decoration: none;
+    color: white;
+}
+.top_menu table tr td p a:active {
+    text-shadow: 0px 0px 5px white;
+    text-decoration: none;
+    color: white;
+}
+.button_container {
+    border: none;
+    margin-top: 40px;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    background-image: url("portal.png");
+    background-size: 600px 600px;
+    background-position: center; 
+    border-radius: 50%;
+}
+.button {
+    border: none;
+    background-color: inherit;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+.button:hover {
+    text-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+.no_select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.button_text {
+    color: white;
+    font-family: "Rock Salt", cursive, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 1000%;
+    font-size: 4vw;
+    margin: auto;
+    cursor: pointer;
+}
