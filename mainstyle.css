@@ -10,12 +10,21 @@ body {
     background-color: #f2f2f2;
     width: 60%;
     box-shadow: 0px 0px 5px 2px grey;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 1px;
     padding-bottom: 1px;
     z-index: 0;
+}
+.logo {
+    position: absolute;
+    top: -23px;
+    left: 10px;
+    font-family: "Oleo Script";
+    font-size: 2em;
 }
 .top_bar {
     position: relative;
@@ -29,7 +38,7 @@ body {
 }
 .top_menu {
     position: relative;
-    padding-left: 15px;
+    padding-left: 70px;
 }
 .top_menu table tr td {
     padding-right: 30px;
@@ -39,6 +48,7 @@ body {
 }
 .top_menu table tr td p {
     padding: 2px;
+    white-space: nowrap;
 }
 .top_menu table tr td p a {
     text-decoration: none;
@@ -89,8 +99,7 @@ body {
 }
 .button_text {
     font-family: "Consolas", "Source Code Pro", monospace;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    vertical-align: middle;
     text-shadow: -3px 0 #f2f2f2, 0 3px #f2f2f2, 3px 0 #f2f2f2, 0 -3px #f2f2f2;
     text-align: center;
     font-size: 1000%;
